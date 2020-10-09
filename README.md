@@ -12,4 +12,5 @@ Robust Transformer is an end-to-end functional style distributed data transforma
 `inner_split(*, key: jax.numpy.lax_numpy.ndarray, outer_fold_data: Dict[str, pd.DataFrame], n: int) -> Dict[str, pd.DataFrame]`
 
 <h2> Composable Transform </h2>  
-`toolz.compose(lambda x: inner_loop((yield from x)), outer_loop) (key=rng_input, raw_data=tester_df, n=5) `  
+.. code:: python
+    toolz.compose(lambda x: inner_loop((yield from x)), outer_loop) (key=rng_input, raw_data=tester_df, n=5)   
