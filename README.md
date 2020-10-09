@@ -7,3 +7,4 @@ Robust Transformer is an end-to-end functional style distributed data transforma
   <img src="transformer.png" width="500" title="hover text">
 </p>
 
+`split_shuffle(*, key: jax.numpy.lax_numpy.ndarray, raw_data: pandas.core.frame.DataFrame, n: int) -> Dict[str, pandas.core.frame.DataFrame]`
