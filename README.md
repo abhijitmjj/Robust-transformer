@@ -8,8 +8,8 @@ Robust Transformer is an end-to-end functional style distributed data transforma
 </p>
 
 <h2> Pure Functions </h2>  
-    split_shuffle(*, key: jax.numpy.lax_numpy.ndarray, raw_data: pd.DataFrame, n: int) -> Dict[str, pd.DataFrame] 
-    inner_split(*, key: jax.numpy.lax_numpy.ndarray, outer_fold_data: Dict[str, pd.DataFrame], n: int) -> Dict[str, pd.DataFrame]
+    `split_shuffle(*, key: jax.numpy.lax_numpy.ndarray, raw_data: pd.DataFrame, n: int) -> Dict[str, pd.DataFrame]   `
+    `inner_split(*, key: jax.numpy.lax_numpy.ndarray, outer_fold_data: Dict[str, pd.DataFrame], n: int) -> Dict[str, pd.DataFrame]`
 
 <h2> Composable Transform </h2>  
 
