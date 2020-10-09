@@ -1,6 +1,11 @@
 <h1> Robust-transformer </h1>
 
-Robust Transformer is a functional style distributed data transformation pipeline built on top of Google JAX
+Robust Transformer - a tool for designing reproducible Machine learning experiments.
+It’s an end to end functional style data transformation distributed pipeline built on top of Google JAX
+The functional style and fine controlled training protocols will help users in getting clean reproducible results with minimum hassle. It’s inspired from Haskell, so most of the functions and annotations might seem familiar to Functional programming enthusiasts 
+Feel free to collaborate if you’re interested 
+Link: https://lnkd.in/eM8EbYy 
+#ai  #machinelearning #programmin
 
 
 <p align="left">
